@@ -1,0 +1,91 @@
+{
+  "editor": {
+    "main": [
+      {
+        "name": "Frosty Editor (v1.0.6.3)",
+        "filename": "FrostyEditor.zip",
+        "description": "You need this one.",
+        "url": "https://github.com/CadeEvs/FrostyToolsuite/releases/download/v1.0.6.3/FrostyEditor.zip",
+        "$comment": "Preloaded in index.html"
+      }
+    ],
+    "builtin": [
+      {
+        "name": "Frosty Controls Library",
+        "description": "A dll file containing code required to run Frosty.",
+        "filename": "FrostyControls.dll"
+      },
+      {
+        "name": "Frosty Plugin Library",
+        "description": "A dll file containing code required to run Frosty.",
+        "filename": "FrostyCore.dll"
+      },
+      {
+        "name": "Frosty Hashing Library",
+        "description": "A dll file containing code required to run Frosty.",
+        "filename": "FrostyHashing.dll"
+      },
+      {
+        "name": "Frosty Mod Support Library",
+        "description": "A dll file containing code required to run Frosty.",
+        "filename": "FrostyModSupport.dll"
+      },
+      {
+        "name": "Frosty SDK",
+        "description": "A dll file containing code required to run Frosty.",
+        "filename": "FrostySDK.dll"
+      },
+      {
+        "name": "Duplication Plugin",
+        "description": "Plugin to duplicate assets.",
+        "filename": "Plugins/DuplicationPlugin.dll"
+      },
+      {
+        "name": "AtlasTexture Editor",
+        "description": "Plugin to edit AtlasTextures.",
+        "filename": "Plugins/AtlasTexturePlugin.dll"
+      },
+      {
+        "name": "Bioware Localization Plugin",
+        "description": "Plugin to edit Localization files for Bioware games.",
+        "filename": "Plugins/BiowareLocalizationPlugin.dll"
+      },
+      {
+        "name": "Bundle Editor",
+        "description": "Plugin to add or remove files from bundles.",
+        "filename": "Plugins/BundleEditorPlugin.dll"
+      },
+      {
+        "name": "Chunk/Res Editor",
+        "description": "Plugin to edit chunk and RES files.",
+        "filename": "Plugins/ChunkResEditorPlugin.dll"
+      },
+      {
+        "name": "Connection Editor",
+        "description": "Plugin that provides a custom editor for Property/Event/Link connections.",
+        "filename": "Plugins/ConnectionPlugin.dll"
+      }
+    ],
+    "$comment": "The above to be continued at a later date.",
+    "plugins": [
+      {
+        "name": "Ability ID Lookup Plugin",
+        "description": "Plugin to find the path of an ability file given it's Identifier.",
+        "url": "https://github.com/AdamRaichu/FrostyAbilityIdLookup/releases/latest/download/AbilityIdLookupPlugin.dll",
+        "filename": "Plugins/AbilityIdLookupPlugin.dll",
+        "dependencies": []
+      }
+    ],
+    "overrides": [],
+    "other": [
+      {
+        "name": "Latest strings.txt file (SWBF2)",
+        "description": "A file which unhashes port names in the editor. This list is specifically tailored for Star Wars Battlefront II (2017).",
+        "url": "https://raw.githubusercontent.com/MagixGames/SWBF2HashDatabase/refs/heads/main/strings.txt",
+        "filename": "strings.txt",
+        "dependencies": []
+      }
+    ],
+    "hidden": []
+  }
+}
